@@ -42,7 +42,8 @@
 li {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .button {
@@ -97,7 +98,6 @@ input,button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,11 +138,13 @@ input,button{
   display: none
 }
 
-.edit-mode .task-input {
+.edit-mode
+.task-input {
   display: inline-block;
   width: 224px
 }
 
-.edit-mode .task-label {
+.edit-mode
+.task-label {
   display: none;
 }
