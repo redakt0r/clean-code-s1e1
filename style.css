@@ -76,9 +76,6 @@
 .section__title_bottom-one {
   padding-top: 31px;
 }
-.task:focus {
-  color: #333;
-}
 
 /* New Task */
 .new-task-input {
@@ -95,6 +92,9 @@
   font-family: Lato, sans-serif;
   color: #888;
   outline: none;
+}
+.new-task-input:focus {
+  color: #333;
 }
 
 /* Task list */
@@ -152,6 +152,9 @@
   font-family: Lato, sans-serif;
   color: #888;
   outline: none;
+}
+.task__input_edit-mode:focus {
+  color: #333;
 }
 
 .task__label_edit-mode {
