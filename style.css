@@ -37,7 +37,7 @@
 .task__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
   outline: none;
 }
 
@@ -155,18 +155,18 @@
 
 .task__label_completed {
   color: #888888;
-  text-decoration: line-through
+  text-decoration: line-through;
 }
 
 /* Edit Task */
 
 .task__input {
-  display: none
+  display: none;
 }
 
 .task__input_edit-mode {
   display: inline-block;
-  width: 224px
+  width: 224px;
   flex-grow: 1;
   font-family: Lato, sans-serif;
   color: #888888;
